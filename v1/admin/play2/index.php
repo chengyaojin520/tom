@@ -9,7 +9,7 @@ if(!isset($_REQUEST['id'])){
 $id = $_REQUEST['id'];
 
 
-$sql = "select * from phome_ecms_movie_data_1 where id ={$id}";
+$sql = "select * from phome_ecms_movie where id ={$id}";
 //$sql = "select * from phome_ecms_movie_data_1 as a inner join phome_ecms_movie as b on a.id = b.id where id ={$id} ";
 
 	
